@@ -1,0 +1,14 @@
+/* ================= SECTIONS ================= */
+.section {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 18px;
+  margin-top: 20px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+}
+
+.section h2 {
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: 600;
+}
