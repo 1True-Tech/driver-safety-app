@@ -1,4 +1,7 @@
 
+import "../../styles/components/Section.css";
+import "../../styles/components/DriverContact.css";
+
 function DriverContact() {
 
   // CHANGE TO YOUR REAL NUMBER

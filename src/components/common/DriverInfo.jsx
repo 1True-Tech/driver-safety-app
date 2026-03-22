@@ -1,5 +1,8 @@
 
 
+import "../../styles/components/Section.css";
+import "../../styles/components/DriverInfo.css";
+
 export default function DriverInfo() {
   return (
     <div className="section">
