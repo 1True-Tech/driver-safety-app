@@ -1,12 +1,34 @@
+import axios from "axios";
+import {useEffect, useState} from "react";
 
 function DriverContact() {
+  const [data, setData] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+  const dashquery = window.location.search;
+  const dashparams = new URLSearchParams(dashquery);
+  const driverid = dashparams.get('driverid');
 
-  // CHANGE TO YOUR REAL NUMBER
-  const phoneNumber = "+18765551234";
+  useEffect(() => {
+    // Make GET request to fetch data
+    axios
+        .get("http://localhost:8080/driver?driverid=" + driverid)
+        .then((response) => {
+          setData(response.data);
+          setLoading(false);
+        })
+        .catch((err) => {
+          setError(err.message);
+          setLoading(false);
+        });
+  }, []);
+
+  if (loading) return <div>Loading...</div>;
+  if (error) return <div>Error: {error}</div>;
 
   // CALL BUTTON
   const callDriver = () => {
-    window.location.href = `tel:${phoneNumber}`;
+    window.location.href = `tel:${data.Phone}`;
   };
 
   // WHATSAPP BUTTON
