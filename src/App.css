@@ -1,154 +1,205 @@
 /* ================= HEADER ================= */
 .header {
-    text-align: center;
-    padding: 25px 15px;
-    margin-bottom: 20px;
+  text-align: center;
+  padding: 25px 15px;
+  margin-bottom: 20px;
 }
 
 .profile-img-CONTAINER {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .profile-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 30%;
-    object-fit: cover;
-    margin: auto;
-    border: 5px solid #a4aab8;
-    cursor: pointer;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 150px;
+  height: 150px;
+  border-radius: 30%;
+  object-fit: cover;
+  margin: auto;
+  border: 5px solid #a4aab8;
+  cursor: pointer;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .profile-img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
 }
 
 .header h1 {
-    margin-top: 15px;
-    font-size: 26px;
-    font-weight: 600;
-    color: #ffffff;
+  margin-top: 15px;
+  font-size: 26px;
+  font-weight: 600;
+  color: #ffffff;
 }
 
 .header p {
-    margin-top: 5px;
-    font-size: 16px;
-    color: #cbd5e1;
-    letter-spacing: 0.5px;
+  margin-top: 5px;
+  font-size: 16px;
+  color: #cbd5e1;
+  letter-spacing: 0.5px;
 }
 
 /* ================= SECTIONS ================= */
 .section {
-    background: rgba(255,255,255,0.05);
-    padding: 18px;
-    margin-top: 20px;
-    border-radius: 12px;
-    backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 18px;
+  margin-top: 20px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
 }
 
 .section h2 {
-    margin-bottom: 12px;
-    font-size: 20px;
-    font-weight: 600;
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 /* Driver Info List */
 .info {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .info li {
-    padding: 10px 0;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-    font-size: 16px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 16px;
 }
 
 .info li:last-child {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 /* ================= BUTTONS ================= */
 .btn {
-    width: 100%;
-    padding: 14px;
-    margin-top: 12px;
-    border-radius: 10px;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.25s ease;
+  width: 100%;
+  padding: 14px;
+  margin-top: 12px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.25s ease;
 }
 
 .btn-primary {
-    background: #2563eb;
-    color: white;
-    font-weight: 600;
+  background: #2563eb;
+  color: white;
+  font-weight: 600;
 }
 
 .btn-primary:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(37,99,235,0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.4);
 }
 
 /* ================= CONTACT BUTTONS ================= */
 .contact-buttons {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .contact-buttons button {
-    width: 100%;
-    padding: 14px;
-    border-radius: 12px;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.25s ease;
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.25s ease;
 }
 
 /* Call button */
 #callDriver {
-    background: #111827;
-    color: white;
+  background: #111827;
+  color: white;
 }
 
 #callDriver:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
 }
 
 /* WhatsApp button */
 #whatsappDriver {
-    background: #25D366;
-    color: white;
-    font-weight: 600;
-    box-shadow:
-        0 10px 25px rgba(37,211,102,0.45),
-        inset 0 1px 2px rgba(255,255,255,0.3);
+  background: #25d366;
+  color: white;
+  font-weight: 600;
+  box-shadow:
+    0 10px 25px rgba(37, 211, 102, 0.45),
+    inset 0 1px 2px rgba(255, 255, 255, 0.3);
 }
 
 #whatsappDriver:hover {
-    transform: translateY(-3px) scale(1.02);
-    box-shadow:
-        0 15px 35px rgba(37,211,102,0.6),
-        inset 0 1px 3px rgba(255,255,255,0.4);
+  transform: translateY(-3px) scale(1.02);
+  box-shadow:
+    0 15px 35px rgba(37, 211, 102, 0.6),
+    inset 0 1px 3px rgba(255, 255, 255, 0.4);
 }
 
 /* ================= FOOTER ================= */
 .footer {
-    text-align: center;
-    padding: 15px 10px;
-    margin-top: 25px;
-    font-size: 14px;
-    font-weight: 500;
-    color: #cbd5e1;
-    border-top: 1px solid rgba(255,255,255,0.1);
-    backdrop-filter: blur(5px);
+  text-align: center;
+  padding: 15px 10px;
+  margin-top: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #cbd5e1;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+/* Navbar styles-------------------------------------------- */
+.nav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  z-index: 1000;
+}
+.nav a {
+  text-decoration: none;
+  margin: 0 10px;
+}
+.nav-links {
+  display: flex;
+}
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+.hamburger span {
+  height: 3px;
+  width: 25px;
+  margin: 4px 0;
+  display: block;
+  background-color: white;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .nav-links.show{
+    display: flex;
+    width: 100dvw;
+    height: 100dvh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+  }
 }

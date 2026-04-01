@@ -1,23 +1,23 @@
 
-import './App.css'
-import Header from './Header.jsx'
-import DriverInfo from './DriverInfo.jsx'
-import PassengerSafety from './PassengerSafety.jsx'
-import DriverContact from './DriverContact.jsx'
-import Footer from './Footer.jsx'
-function App() {
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Layout from './components/layout/Layout';
+import Home from './components/pages/Home';
+import Safety from './components/pages/Safety';
+import Contact from './components/pages/Contact';
+import './styles/global/index.css';
 
+function App() {
   return (
-    <> 
-    <Header />
-    <DriverInfo />
-    <PassengerSafety />
-    <DriverContact />
-    <Footer />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="safety" element={<Safety />} />
+          <Route path="contact" element={<Contact />} />
+        </Route>
+      </Routes>
+    </Router>
   );
-   
- 
 }
 
-export default App
+export default App;
