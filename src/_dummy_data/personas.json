@@ -1,0 +1,141 @@
+{
+  "driverPersonas": [
+    {
+      "DriverID": "11447766HT",
+      "FirstName": "Jevonne",
+      "LastName": "Shaw",
+      "Username": "jevonne.shaw",
+      "City": "Kingston",
+      "Country": "Jamaica",
+      "Phone": "876-555-0101",
+      "Email": "jevonne.shaw@email.com",
+      "LicensePlate": "1111 AA",
+      "Vehicle": "Grey Honda Fit",
+      "ImageURL": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+      "Licensed": true,
+      "Password": "SecurePass123!"
+    },
+    {
+      "DriverID": "98765432DR",
+      "FirstName": "Marcus",
+      "LastName": "Johnson",
+      "Username": "marcus.johnson",
+      "City": "Montego Bay",
+      "Country": "Jamaica",
+      "Phone": "876-555-0102",
+      "Email": "marcus.johnson@email.com",
+      "LicensePlate": "2222 BB",
+      "Vehicle": "Black Toyota Corolla",
+      "ImageURL": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",
+      "Licensed": true,
+      "Password": "Driver2024Pass"
+    },
+    {
+      "DriverID": "55443311JM",
+      "FirstName": "Sophia",
+      "LastName": "Williams",
+      "Username": "sophia.williams",
+      "City": "Spanish Town",
+      "Country": "Jamaica",
+      "Phone": "876-555-0103",
+      "Email": "sophia.williams@email.com",
+      "LicensePlate": "3333 CC",
+      "Vehicle": "White Nissan Sentra",
+      "ImageURL": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop",
+      "Licensed": true,
+      "Password": "SophiaDriver24"
+    },
+    {
+      "DriverID": "44556677KG",
+      "FirstName": "David",
+      "LastName": "Campbell",
+      "Username": "david.campbell",
+      "City": "Mandeville",
+      "Country": "Jamaica",
+      "Phone": "876-555-0104",
+      "Email": "david.campbell@email.com",
+      "LicensePlate": "4444 DD",
+      "Vehicle": "Red Suzuki Swift",
+      "ImageURL": "https://images.unsplash.com/photo-1507009507619-7cf3104d71da?w=400&h=400&fit=crop",
+      "Licensed": true,
+      "Password": "CampbellDriver01"
+    },
+    {
+      "DriverID": "77889900LW",
+      "FirstName": "Patricia",
+      "LastName": "Bennett",
+      "Username": "patricia.bennett",
+      "City": "May Pen",
+      "Country": "Jamaica",
+      "Phone": "876-555-0105",
+      "Email": "patricia.bennett@email.com",
+      "LicensePlate": "5555 EE",
+      "Vehicle": "Silver Hyundai Accent",
+      "ImageURL": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
+      "Licensed": true,
+      "Password": "PatBennett2024"
+    }
+  ],
+  "riderPersonas": [
+    {
+      "RiderID": "0936TYER",
+      "FirstName": "Beatrice",
+      "LastName": "Williams",
+      "Username": "beatrice.williams",
+      "City": "Kingston",
+      "Country": "Jamaica",
+      "Phone": "876-555-0201",
+      "Email": "beatrice.williams@email.com",
+      "ImageURL": "https://images.unsplash.com/photo-1517841905240-c721f5994d8b?w=400&h=400&fit=crop",
+      "Password": "RiderBeat123"
+    },
+    {
+      "RiderID": "0102RIDER",
+      "FirstName": "James",
+      "LastName": "Mitchell",
+      "Username": "james.mitchell",
+      "City": "Montego Bay",
+      "Country": "Jamaica",
+      "Phone": "876-555-0202",
+      "Email": "james.mitchell@email.com",
+      "ImageURL": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",
+      "Password": "JamesMitch2024"
+    },
+    {
+      "RiderID": "0304RIDE",
+      "FirstName": "Angela",
+      "LastName": "Douglas",
+      "Username": "angela.douglas",
+      "City": "Spanish Town",
+      "Country": "Jamaica",
+      "Phone": "876-555-0203",
+      "Email": "angela.douglas@email.com",
+      "ImageURL": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+      "Password": "AngDouglas99"
+    },
+    {
+      "RiderID": "0506PASS",
+      "FirstName": "Christopher",
+      "LastName": "Brown",
+      "Username": "christopher.brown",
+      "City": "Mandeville",
+      "Country": "Jamaica",
+      "Phone": "876-555-0204",
+      "Email": "christopher.brown@email.com",
+      "ImageURL": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop",
+      "Password": "ChrisBrown2024"
+    },
+    {
+      "RiderID": "0708USER",
+      "FirstName": "Rachel",
+      "LastName": "Green",
+      "Username": "rachel.green",
+      "City": "May Pen",
+      "Country": "Jamaica",
+      "Phone": "876-555-0205",
+      "Email": "rachel.green@email.com",
+      "ImageURL": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop",
+      "Password": "RachelGreen24"
+    }
+  ]
+}

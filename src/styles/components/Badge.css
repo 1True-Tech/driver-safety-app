@@ -1,0 +1,20 @@
+.badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    padding: var(--spacing-xs) var(--spacing-md);
+    border-radius: var(--radius-full);
+    font-size: var(--font-size-xs);
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.badge-success {
+    background-color: var(--color-success);
+    color: white;
+}
+
+.badge-danger {
+    background-color: var(--color-danger);
+    color: white;
+}

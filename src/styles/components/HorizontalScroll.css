@@ -1,0 +1,43 @@
+.horizontal-scroll-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.horizontal-scroll-title {
+    font-size: var(--font-size-base);
+    font-weight: 600;
+    color: var(--color-text-primary);
+}
+
+.horizontal-scroll {
+    display: flex;
+    gap: var(--spacing-md);
+    overflow-x: auto;
+    padding-bottom: var(--spacing-sm);
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+    height: 6px;
+}
+
+.horizontal-scroll::-webkit-scrollbar-track {
+    background: var(--color-bg-secondary);
+    border-radius: var(--radius-md);
+}
+
+.horizontal-scroll::-webkit-scrollbar-thumb {
+    background: var(--color-border);
+    border-radius: var(--radius-md);
+}
+
+.horizontal-scroll::-webkit-scrollbar-thumb:hover {
+    background: var(--color-text-light);
+}
+
+.horizontal-scroll > * {
+    flex-shrink: 0;
+    min-width: 200px;
+}
