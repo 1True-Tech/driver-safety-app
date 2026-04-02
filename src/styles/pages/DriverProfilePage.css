@@ -76,6 +76,52 @@
     max-width: 800px;
 }
 
+.quick-actions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-2xl);
+}
+
+.action-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-md);
+    padding: var(--spacing-lg) var(--spacing-md);
+    border: 2px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    background-color: var(--color-bg-primary);
+    color: var(--color-text-primary);
+    font-weight: 600;
+    font-size: var(--font-size-base);
+    text-decoration: none;
+    transition: all var(--transition-fast);
+}
+
+.action-button:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.action-call {
+    border-color: var(--color-accent-primary);
+    color: var(--color-accent-primary);
+}
+
+.action-call:hover {
+    background-color: var(--color-accent-light);
+}
+
+.action-whatsapp {
+    border-color: #25d366;
+    color: #25d366;
+}
+
+.action-whatsapp:hover {
+    background-color: rgba(37, 211, 102, 0.1);
+}
+
 .info-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
